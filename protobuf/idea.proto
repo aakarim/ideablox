@@ -1,0 +1,7 @@
+syntax = "proto3";
+package main;
+
+message Idea {
+  string text = 1;
+  string author = 2;
+}
